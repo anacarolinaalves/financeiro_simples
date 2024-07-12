@@ -1,0 +1,12 @@
+// resources/css/app.scss
+@import 'bootstrap'; // Exemplo de importação do Bootstrap, se necessário
+
+// Seus estilos personalizados aqui
+body {
+    background-image: url('/app/resources/img/background.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Cobrir toda a área do body */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    min-height: 100vh; /* Garantir que a imagem cubra toda a altura da viewport */
+}
+

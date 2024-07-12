@@ -1,0 +1,74 @@
+/* Conteúdo do financeiro.css */
+
+/* navegação */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+/* cabeçalho */
+#welcome-message {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* carrossel */
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* últimos lançamentos */
+.card {
+    margin-top: 2rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* rodapé */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+/*  botões */
+.section-buttons {
+    background-color: #f8f9fa; /* Cor de fundo */
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/*  botões */
+.btn-section {
+    margin-right: 10px; /* Espaço entre os botões */
+}
+body {
+    background-image: url('../img/background.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Cobrir toda a área do body */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    min-height: 100vh; /* Garantir que a imagem cubra toda a altura da viewport */
+}

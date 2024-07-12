@@ -1,0 +1,55 @@
+/* Conteúdo do financeiro.css */
+
+/* Estilos para a barra de navegação */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+/* Estilos para o cabeçalho */
+#welcome-message {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para o carrossel */
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para o bloco de últimos lançamentos */
+.card {
+    margin-top: 2rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
